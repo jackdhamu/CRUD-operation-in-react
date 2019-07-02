@@ -1,0 +1,248 @@
+*{
+  font-family: Montserrat,Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 14px;
+}
+a{
+      color: #59595A!important;
+}
+.card-block {
+margin: 10% auto 15% !important;
+max-width:500px; 
+width: 80%;
+border: none;
+font-weight: 400;
+padding: 1.25rem!important;
+box-shadow: 0 0.125rem 0.25rem rgba(50,70,75,.2);
+}
+.register {
+ max-width:600px!important; 
+}
+.new-topics {
+ max-width:800px!important; 
+}
+.title {
+text-align: center;
+padding-top: 0.5rem;
+}
+.title h4{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+label {
+  margin-bottom: 5px!important;
+  font-weight: 300;
+  color: inherit;
+  text-transform: uppercase;
+}
+.ant-input {
+  border-radius: none!important;
+  height: 46px!important;
+}
+input[type='text'],input[type='password'] {
+  border-radius: 0px !important;
+}
+.ant-form-item {
+  margin-bottom: 5px!important;
+}
+.ant-btn {
+  height: 46px!important;
+  border-radius: 0px !important;
+  font-size: 1.125rem!important;
+  line-height: 1.25!important;
+}
+.btn-primary { 
+  background-color: #6164C1!important;
+  border-color: #6164C1!important;
+}
+.btn-primary span {
+  color: #fff!important;  
+}
+.terms {
+  margin-top: 1rem;
+  text-align: center
+}
+.ant-input:focus {
+  border-color: #8d8fd2!important;
+  box-shadow: none;
+}
+span {
+  font-size: 1.125rem!important;
+  line-height: 1.25!important;
+}
+.bottom-link {
+position: absolute;
+  bottom: -30px;
+  left: 5px;
+}
+footer{
+  border-top: .0625rem solid rgba(0,0,0,.03); 
+}
+footer ul{
+  list-style: none;
+  display: inline-block;
+}
+footer ul li{
+  display: inline;
+  margin-right: 20px;
+}
+footer a{
+  display: inline-block;
+  float: right;
+}
+footer{
+  padding: 0.5rem 4rem 0rem !important;
+}
+.form-inline input{
+width: 40%;
+}
+.form-inline {
+  display: inline-flex;
+}
+label {
+  display: block;
+}
+[id*=Valid]{
+  color:orangered!important;
+}
+.main-content,.page-header{
+  padding: 30px;
+  margin: auto;
+}
+.active{
+  color: #fff !important;
+  padding: 5px;
+  border: #594646 solid 1px;
+  background-color: #4f6262cf;
+  border-radius: 2.5px;
+}
+.page-body {
+margin: 5% auto !important;
+width: 90%;
+border: none;
+font-weight: 400;
+padding: 2rem!important;
+background-color: white;
+box-shadow: 0 0.125rem 0.25rem rgba(50,70,75,.2);
+}
+.page-container {
+  margin: 5% auto !important;
+  width: 40%;
+  border: none;
+  font-weight: 400;
+  padding: 2rem!important;
+  background-color: white;
+  box-shadow: 0 0.125rem 0.25rem rgba(50,70,75,.2);
+  }
+.topics{
+  margin: 14% auto !important;
+  }
+table{
+  margin-top: 30px;
+  border: 1px solid #e8e8e8 !important;
+}
+hr{
+  color:#e8e8e8!important;
+}
+
+.edit-btn{
+  background-color: green!important;
+  color: white!important;
+  margin-left: 5px;
+  border-radius: 3px!important;
+}
+.delete-btn{
+  background-color: red!important;
+  color: white!important;
+  margin-left: 5px;
+ border-radius: 3px!important; 
+}
+.page-body .ant-input 
+{
+border: none;
+font-size: 20px!important;
+font-weight: 500!important;
+}
+.results-show{
+  position: relative;
+  top: -40px;
+}
+.spinner{
+  margin: 20% 50%;
+}
+.ant-spin-dot{
+  padding: 20px!important;
+}
+.ant-input:focus {
+   border-color:none!important;
+   box-shadow: none!important;
+}
+.comments-card{
+  margin:40px 40px 0px 40px!important;
+}
+.comments-card span, h6,.top-title{
+  color: orangered!important;
+}
+.comments-card h1{
+  font-size: 180%;
+}
+.comments-card h2,.top-title{
+  font-size: 130%;
+}
+.center{
+  text-align:center;
+}
+.center svg{
+  font-size: 34px!important;
+  margin-bottom: 10px;
+}
+.ant-rate{
+  color: #ec9e12!important;
+}
+.card-row{
+  width: 100%;
+  padding: 20px 80px 20px 20px!important;
+}
+.content {
+  padding-left: 20px;
+  padding-right: 80px;
+}
+.card-row .ant-card-body{
+  display: -webkit-box;
+}
+.list .ant-card-body {
+  padding: 0px !important;
+}
+.date{
+  color:#909090;
+  margin: 0pximportant;
+}
+.list{
+  margin-bottom: 10%!important;
+}
+.ant-modal-footer .ant-btn-primary{
+  background: orangered!important;
+  border-color:orangered!important;
+}
+.ant-modal-footer button{
+   border-radius: 4px!important;
+}
+.ant-modal-close-x{
+  padding-top: 15px;
+}
+.List-view{
+  margin-top: 30px!important;
+  border: 1px solid #e8e8e8 !important;
+}
+
+.List-view li{
+  place-content: center;
+}
+.List-view li:hover{
+  background-color:#c4bfbf;
+}
+.List-view:hover{
+  cursor: pointer;
+}
+.result-none{
+  padding: 5%;
+}
